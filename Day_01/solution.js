@@ -61,3 +61,82 @@ console.log(technology);
 const User = (name, role = "Student") => `Name: ${name}, Role: ${role}`;
 console.log(User("Subham"));
 console.log(User("Subham", "Student"));
+
+// Create a calculator function where the operation defaults to "add".
+const caluculator = (a, b, opp = "add") => {
+    switch (opp){
+        case "add": 
+            return a + b;
+    }
+}
+console.log(caluculator(5, 10));
+
+// Create a function that receives unlimited numbers and returns their sum using the Rest Operator. 
+const sum = (...numbers) => numbers.reduce((acc, num) => acc + num, 0);
+console.log(sum(1, 2, 3, 4, 5));
+
+// Create a function that receives unlimited numbers and returns the largest number
+const findMax = (...numbers) => Math.max(...numbers);
+console.log(findMax(5, 10, 15, 20, 25));
+
+//Merge two arrays using the Spread Operator: 
+const frontend = ["HTML", "CSS"]
+const backend = ["NodeJS", "ExpressJS"];
+const fullstack = [...frontend, ...backend];
+console.log(fullstack);
+
+// Copy an array using the Spread Operator and add one extra value. 
+const arr1 = [1,2,3]; 
+const arr2 = [ ...arr1, 4];
+console.log(arr2);
+
+ //Copy an object and update only the email property. 
+const user = {
+    name: "Subham",
+    email: "240130@geetauniversity.edu.in"
+}
+const updated = {
+    ...user,
+    email: "newemail@geetauniversity.edu.in"
+}
+console.log(updated);
+
+//Create a product object and create a new object with an added discount field using the Spread Operator. 
+const product = {
+    name: "Laptop",
+    price: 1000
+}
+const discounted = {
+    ...product,
+    discount: "10%"
+}
+console.log(discounted);
+
+//Use map() and an arrow function to return only names from the given array:
+const users = [ { name: "Ram", age: 25 }, 
+                { name: "Mohan", age: 30 }, 
+                { name: "Amit", age: 22 } 
+]; 
+const names = users.map(user => user.name);
+console.log(names);
+
+//Use filter() to get users whose age is greater than 24. 
+const filter = users.filter(user => user.age > 24);
+console.log(filter);
+
+//Use reduce() to calculate the total age of all users.
+const totalAge = users.reduce((acc, user) => acc + user.age, 0);
+console.log(totalAge);
+
+//Create a function createInvoice(customerName, amount) and return a formatted string using template literals. 
+const Invoice = (customerName, amount) => ` ${customerName}: $${amount.toFixed(2)}`;
+console.log(Invoice("Ram", 100.50));
+
+//25
+const student = { name: "Ram", marks: [80, 90, 70, 85] };
+const { name, marks } = student;
+const totalMarks = marks.reduce((acc, mark) => acc + mark, 0);
+const average = totalMarks / marks.length;
+console.log(` ${name},  ${totalMarks},  ${average.toFixed(2)}`);
+
+`

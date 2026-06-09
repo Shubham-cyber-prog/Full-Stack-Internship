@@ -85,8 +85,29 @@
 // const arr2 = [ ...arr1, 4,5,6];
 // console.log(arr2);
 
-const nums = [10, 20, 30, 40, 50];
-const [first, second, ...rest] = nums;
-console.log(first);
-console.log(second);
-console.log(rest);
+// const nums = [10, 20, 30, 40, 50];
+// const [first, second, ...rest] = nums;
+// console.log(first);
+// console.log(second);
+// console.log(rest);
+
+// const caluculator = (a, b, opp = "add") => {
+//     switch (opp){
+//         case "add": 
+//             return a + b;
+//     }
+// }
+// console.log(caluculator(5, 10));
+
+// const sum = (...numbers) => numbers.reduce((acc, num) => acc + num, 0);
+// console.log(sum(1, 2, 3, 4, 5));
+
+
+// const frontend = ["HTML", "CSS"]
+// const backend = ["NodeJS", "ExpressJS"];
+// const fullstack = [...frontend, ...backend];
+// console.log(fullstack);
+
+
+const Invoice = (customerName, amount) => ` ${customerName}: $${amount.toFixed(2)}`;
+console.log(Invoice("Ram", 100.50));
