@@ -12,8 +12,8 @@ console.log(name);
 
 //Create a block using {} and show that a variable declared with let cannot be accessed outside it.
 {
-    let blockVariable = "I am inside the block";
-    console.log(blockVariable);
+    let block= "I am inside the block";
+    console.log(block);
 }
 
 //Write a program to swap two numbers using array destructuring. 
@@ -41,3 +41,23 @@ const [first, second, ...rest] = nums;
 console.log(first);
 console.log(second);
 console.log(rest);
+
+// Create a function that receives a user's name and age and returns: "Hello Ram, you are 25 years old." using template literals. 
+const greet = (name, age) => `Hello ${name}, you are ${age} years old.`;
+console.log(greet("Ram", 25));
+
+// Create an object and destructure all properties: JavaScript const student = { name: "Ram", age: 25, course: "MERN" }; 
+const student = { name: "Ram", age: 25, course: "MERN" };
+const { name, age, course } = student;
+console.table({ name, age, course });
+
+// Rename course to technology while destructuring. 
+const { name, age, course: technology } = student;
+console.log(name);
+console.log(age);
+console.log(technology);
+
+// Create a function with a default parameter: createUser(name, role="Student") 
+const User = (name, role = "Student") => `Name: ${name}, Role: ${role}`;
+console.log(User("Subham"));
+console.log(User("Subham", "Student"));
