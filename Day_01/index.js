@@ -81,6 +81,12 @@
 // console.log(addvalue(1,2,3,4,56,7,8,9,10));
 
 //spread operator 
-const arr1 = [1,2,3];
-const arr2 = [ ...arr1, 4,5,6];
-console.log(arr2);
+// const arr1 = [1,2,3];
+// const arr2 = [ ...arr1, 4,5,6];
+// console.log(arr2);
+
+const nums = [10, 20, 30, 40, 50];
+const [first, second, ...rest] = nums;
+console.log(first);
+console.log(second);
+console.log(rest);

@@ -30,3 +30,14 @@ console.log(cube(3));
 const EvenOrOdd = (num) => num % 2 === 0 ? "Even" : "Odd";
 console.log(EvenOrOdd(5));
 console.log(EvenOrOdd(6));
+
+// Create an arrow function that finds the maximum of three numbers. 
+const findMax = (a, b, c) => Math.max(a, b, c);
+console.log(findMax(5, 10, 15));
+
+//Given an array  const nums = {10, 20, 30, 40, 50 } Use destructuring to get first, second and remaining values. 
+const nums = [10, 20, 30, 40, 50];
+const [first, second, ...rest] = nums;
+console.log(first);
+console.log(second);
+console.log(rest);
