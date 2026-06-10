@@ -130,7 +130,7 @@ console.log(totalAge);
 
 //Create a function createInvoice(customerName, amount) and return a formatted string using template literals. 
 const Invoice = (customerName, amount) => ` ${customerName}: $${amount.toFixed(2)}`;
-console.log(Invoice("Ram", 100.50));
+console.log(Invoice("Ram", 100));
 
 //25
 const student = { name: "Ram", marks: [80, 90, 70, 85] };

@@ -1,3 +1,4 @@
+###Day_01
 before ES6 - Oonly 
 after ES6 - three types of variable let , var and const 
 
@@ -45,3 +46,47 @@ default parameter ka use tb hota hai jb function call krte wakt argunment pass k
 
 Spread operator array ya object ke elements/properties ko expand kar deta hai.
 Rest Operator 
+
+###Day_02
+1.Lexical Scope 
+2. Closure 
+3. iife 
+4 . hof
+5. map()
+6. Filter()
+7. reduce()
+8. function composition
+9. currying 
+10. Memorization 
+
+1. Lexical scope 
+-> Global Scope 
+scope matlab kisi variable ko access kr skte hai 
+
+->Function scope 
+jab koi 
+
+->Block scope 
+
+lexical scope ka matlab itna hai ki child function apne parent variable  ke sarwe variabkle ko accesss kr skta hai 
+
+###Closure 
+closure is a combinationn of function and its lexical environment 
+jab koi child function apne parent function ko fully execute ho jane ke baad bhi usse milli value ko hold krke rkhta h then that willl be known as closure 
+
+###IIFE (Immediately Invoked Function Expression)
+function bnta bhi h aur turantt hi execute bhi ho jata hai 
+
+Higher order function 
+when a function use a function as a parameter or a function returning a function as resukt known as hof 
+
+map function 
+ek array method hai jo har element par callback function execute karta hai aur transformed values ka naya array return karta hai.
+
+filter function 
+when we want to implement 
+
+it doesn't effect original array 
+
+Reduce()-
+when we have to convert an array into a singke value 
