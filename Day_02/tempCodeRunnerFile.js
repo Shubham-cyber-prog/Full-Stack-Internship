@@ -1,6 +1,1 @@
-     let c = 30
-        console.log(a, b, c)
-    }
-    inner()
-}
-outer()
+Pass arguments to an IIFE and calculate area of rectangle.

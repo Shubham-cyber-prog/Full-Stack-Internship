@@ -99,6 +99,114 @@
 // const max = arr.reduce((acc, num) => (num > acc ? num : acc), arr[0]);
 // console.log(max);
 
-const words = ["Hello ", "How ", "are ", "You"]
-const sentence = words.reduce((acc, word) => acc + word, "");
-console.log(sentence);
+// const words = ["Hello ", "How ", "are ", "You"]
+// const sentence = words.reduce((acc, word) => acc + word, "");
+// console.log(sentence);
+
+
+// function a(){
+//     let x = 1; 
+// function b(){
+//     let y = 2 ; 
+//     function c(){
+//         let z = 3 ; 
+//         function d(){
+//             let w = 4; 
+//             console.log(x);
+//             console.log(y);
+//             console.log(z);
+//             console.log(w);
+
+//         }
+//         d();
+//     }
+//     c();
+
+// }
+// b();
+
+// }
+// a();
+//Write a function that returns another function and demonstrates lexical scope.
+// function outer(){
+//     let username = "subham"
+//     function inner(){
+//         console.log(username);
+//     }
+//     return inner;
+// }
+// const inner = outer();
+// inner();
+
+// var x = 100;  function a() {     console.log(x);     var x = 50; }  a(); 
+
+// let name = "Ram";  function show() {     let name = "Mohan";     return function() {         console.log(name);     } }  show()(); 
+
+// Create a 3-level nested function and access all variables inside the innermost function.
+// function level1() {
+//     let var1 = "Variable 1";
+//     function level2() {
+//         let var2 = "Variable 2";
+//         function level3() {
+//             let var3 = "Variable 3";
+//             console.log(var1);
+//             console.log(var2);
+//             console.log(var3);
+//         }
+//         level3();
+//     }
+//     level2();
+// }
+// level1();
+
+// Create a function where a child function can access grandparent variables.
+// function grandVar(){
+//     let grandVar = "GrandParent"
+//     function parentVar(){
+//         let parent = "Parent"
+//         function childVar(){
+//             console.log(grandVar);
+//             console.log(parent);
+//         }
+//         childVar();
+//     }
+//     parentVar();
+// }
+// grandVar();
+
+//Create a private variable using lexical scope. 
+
+
+//Create a reverse counter. Output: 10 9 8 
+// function count(){
+//     let count = 10;
+//     function counts(){
+//         console.log(count);
+//         count--;
+//     }
+//     return counts;
+// }
+// const counter = count();
+// counter();
+// counter();
+// counter();
+
+
+// //reate a closure that remembers the username forever. 
+// function outer(){
+//     let username = "subham"
+//     function inner(){
+//         console.log(username);
+//     }
+//     return inner;
+// }
+// const inner = outer();
+// inner();
+
+//Build a closure that stores a secret password. Only getter should be available. 
+
+
+
+
+
+//Use IIFE to create private variables. 
