@@ -25,11 +25,11 @@ We cam not access variable data type because they are tdz
 Temporial Dead Zone - 
 Var are not tdz but let , const are tdz 
 
-implicit Return 
-Single Return 
-Multiparameter 
-no parameter 
-return object 
+- implicit Return 
+- Single Return 
+- Multiparameter 
+- no parameter 
+- return object 
 
 Template literal in Javascript
 
@@ -41,7 +41,7 @@ used for multi line strength
 //Array Destructring
 
 
-//Default parameter  and spread parameter 
+Default parameter  and spread parameter 
 default parameter ka use tb hota hai jb function call krte wakt argunment pass kre 
 
 Spread operator array ya object ke elements/properties ko expand kar deta hai.
@@ -51,7 +51,7 @@ Rest Operator
 1.Lexical Scope 
 2. Closure 
 3. iife 
-4 . hof
+4. hof
 5. map()
 6. Filter()
 7. reduce()
