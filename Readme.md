@@ -1,4 +1,4 @@
-###Day_01
+### Day_01
 before ES6 - Oonly 
 after ES6 - three types of variable let , var and const 
 
@@ -47,7 +47,7 @@ default parameter ka use tb hota hai jb function call krte wakt argunment pass k
 Spread operator array ya object ke elements/properties ko expand kar deta hai.
 Rest Operator 
 
-###Day_02
+### Day_02
 1.Lexical Scope 
 2. Closure 
 3. iife 
@@ -90,3 +90,20 @@ it doesn't effect original array
 
 Reduce()-
 when we have to convert an array into a singke value 
+
+
+### Day_03 
+object 
+-data 
+-function 
+
+const student ={
+    name :"Subham",
+    age:25, 
+    city :"Kanpur"
+}
+
+key -> name , age , city 
+-> To access value of key in object we have to use dot notation 
+->When we are using a function in an object at that time that will be known as method.
+
