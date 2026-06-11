@@ -110,7 +110,7 @@ s2.greet();
 s3.greet();
 
 //22
-not defined 
+ - not defined 
 
 //23Prototype me isAdult() method add karo. 
 student.prototype.isAdult = function() {
@@ -129,8 +129,8 @@ console.log(s1.course);
 console.log(s2.course);
 console.log(s3.course);
 
-//26 
-false kyu course property prototype mai add
+//26 .
+- false kyu course property prototype mai add
 
 //27
 true
@@ -146,7 +146,7 @@ const animal = {
     }
 }
 
-//Animal se dog object create karo using: Object.create() 
+//30 Animal se dog object create karo using: Object.create() 
 const animal = {
     eat: function() {
         console.log("Animal is eating");
@@ -158,4 +158,11 @@ dog.bark = function() {
 }
 dog.eat(); 
 dog.bark();
+
+//31Dog me bark() method add kar
+dog.bark = function() {
+    console.log("Dog is barking");
+}
+dog.bark();
+
 
