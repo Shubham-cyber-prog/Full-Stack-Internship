@@ -129,4 +129,33 @@ console.log(s1.course);
 console.log(s2.course);
 console.log(s3.course);
 
-//Check karo: u1.hasOwnProperty("course") Output kya hoga? 
+//26 
+false kyu course property prototype mai add
+
+//27
+true
+
+//28 Prototype chain draw karo: const arr=[] 
+const arr = [];
+console.log(arr.__proto__);
+
+//29 Animal object banao. Method: eat() 
+const animal = {
+    eat: function() {
+        console.log("Animal is eating");
+    }
+}
+
+//Animal se dog object create karo using: Object.create() 
+const animal = {
+    eat: function() {
+        console.log("Animal is eating");
+    }
+}
+const dog = Object.create(animal);
+dog.bark = function() {
+    console.log("Dog is barking");
+}
+dog.eat(); 
+dog.bark();
+
