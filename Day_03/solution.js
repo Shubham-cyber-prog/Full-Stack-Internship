@@ -47,4 +47,86 @@ const person = {
     }
 }
 
-//
+//12
+const person2 = {
+    name: "Ram",
+    printUpperCase: function() {
+        console.log(this.name.toUpperCase());
+    }
+}
+
+//13
+
+//14
+Ram 
+
+//15 
+undefined 
+
+//16
+function student(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+//17 student objects create karo constructor se. 
+const s1 = new student ("Subham", 20);
+const s2 = new student ("Aadesh", 21);
+const s3 = new student ("Rahul", 22);
+
+//18Constructor function me greet() method add karo.
+student.prototype = {
+    greet: function() {
+        console.log("Hello, I am " + this.name);
+    }
+}
+s1.greet();
+s2.greet();
+s3.greet();
+
+//19 
+Ram 
+
+//20 Car constructor function banao. Properties: brand price 
+function Car(brand, price) {
+    this.brand = brand;
+    this.price = price;
+}
+
+//21Student constructor banao aur prototype me greet() method add kar
+function student(name, age) {
+    this.name = name; 
+    this .age = age; 
+}
+student.prototype.greet = function() {
+    console.log("Hello, I am " + this.name);
+}
+const s1 = new student("Subham", 20);
+const s2 = new student("Aadesh", 21);
+const s3 = new student("Rahul", 22);
+
+s1.greet();
+s2.greet();
+s3.greet();
+
+//22
+not defined 
+
+//23Prototype me isAdult() method add karo. 
+student.prototype.isAdult = function() {
+    return this.age >= 18;
+}
+console.log(s1.isAdult());
+console.log(s2.isAdult());
+console.log(s3.isAdult());
+
+//24
+Hi
+ 
+//25 Prototype me course property add karo. 
+student.prototype.course = "MERN";
+console.log(s1.course);
+console.log(s2.course);
+console.log(s3.course);
+
+//Check karo: u1.hasOwnProperty("course") Output kya hoga? 
