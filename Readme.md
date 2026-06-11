@@ -107,3 +107,20 @@ key -> name , age , city
 -> To access value of key in object we have to use dot notation 
 ->When we are using a function in an object at that time that will be known as method.
 
+basically if any particular object is usng any value of key in  a method so at that time to acess that we have to use this keyword.
+
+this -> student 
+
+prototype chaining  ek javascript technique hai jisme ek object dusre object ke properties or method ko access krta  hai agr usko properties or method nahi milta to wo parent ko dhundta jb tk nhi mil jata ye chain chlta hai 
+
+const s1 = new student("Ram", 25)
+step-> create an new object
+step-> to add object from constructor 
+step3->code execution 
+
+Har ek function ke pass prototype hoti hai 
+
+*** ES6 In Javscript 
+```
+Inheritance -> Dog can herit properties of animal . 
+```

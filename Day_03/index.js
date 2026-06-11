@@ -30,18 +30,96 @@
 //     city : "Panipat"
 // },
 // ]
-const allstudent ={
-    name:"Subham ",
-    age : 19,
-    city : "Panipat",
-    sayYourSkills:function(){
-        console.log("Hello my skills are MERN Stack");
-    }
-}
-allstudent.sayYourSkills();
+// const allstudent ={
+//     name:"Subham ",
+//     age : 19,
+//     city : "Panipat",
+//     skill: "MERN Stack",
+//     sayYourSkills:function(){
+//         console.log(this.skill);
+//     }
+// }
+// allstudent.sayYourSkills();
+
 // console.log(allstudent["age"]);
 
 
 // let key = "name"
 
 // console.log(allstudent[key]);
+
+// const obj1 = {
+//     name: "Subham",
+// }
+
+// const obj2 = onj1
+// obj2.name = "Rahul";
+
+// console.log(obj1.name); // Output: "Rahul"
+
+
+
+// const animal = {
+//     bark(){
+//         console.log("Hello i am barking ")
+//     }
+// }
+
+// const dog = Object.create(animal);
+// dog.bark(); 
+// function Student(name, age) {
+//     this.name = name;
+//     this.age = age;
+// }
+// const s1 = new Student("Subham", 19);
+// const s2 = new Student("Rahul", 20);
+// console.log(s1); 
+// console.log(s2); 
+
+
+
+// function Student(name, age) {
+//     this.name = name;
+//     this.age = age;
+//     this.greet = function() {
+//         console.log("Hello"); 
+// }
+// }
+// Student.prototype.greet = function(){
+//     console.log("Hello")
+// }
+// const s1 = new Student("Subham", 19);
+// const s2 = new Student("Rahul", 20);
+// const s3 = new Student("Abhishek", 20);
+
+// s1.greet();
+// s2.greet();
+// s3.greet();
+
+// function student(){
+
+// }
+// console.log(student.prototype);
+
+
+// function Student(){}
+// const s1 = new Student();
+// console.log(s1.__proto__ === Student.prototype); 
+
+function Student (name, age){
+    this.name = name;
+    this.age = age;
+}
+Student.prototype.greet = function(){
+    console.log("Hello");
+}
+
+class Student{
+    constructor(name , age ){
+        this.name = name;
+        this.age = age;
+    }
+    greet(){
+        console.log("Hello");
+    }
+}
