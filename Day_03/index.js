@@ -106,20 +106,79 @@
 // const s1 = new Student();
 // console.log(s1.__proto__ === Student.prototype); 
 
-function Student (name, age){
-    this.name = name;
-    this.age = age;
-}
-Student.prototype.greet = function(){
-    console.log("Hello");
-}
+// function Student (name, age){
+//     this.name = name;
+//     this.age = age;
+// }
+// Student.prototype.greet = function(){
+//     console.log("Hello");
+// }
 
-class Student{
-    constructor(name , age ){
-        this.name = name;
-        this.age = age;
-    }
-    greet(){
-        console.log("Hello");
-    }
-}
+// class Student{
+//     constructor(name , age ){
+//         this.name = name;
+//         this.age = age;
+//     }
+//     greet(){
+//         console.log("Hello");
+//     }
+// }
+
+// class Animal{
+//     constructor(name){
+//         this.name = name;
+//     }
+
+// }
+// class Dog extends Animal{
+//     constructor(name){
+//         super(name);
+//     }
+
+// }
+// const d = new Dog("Buddy");
+// console.log(d.name);
+
+
+// class User{
+//     get message(){
+//         return "Hello i am a user"
+//     }
+// }
+// const u = new User();
+// console.log(u.message);
+
+// class User{
+//     set age(value){
+//         if(value<0){
+//             throw Error ("Age cannot be negative");
+//         }
+//         this ._age = value;
+//     }
+// }
+//it will run automatically 
+
+
+//Static method in JS 
+
+// class MathHelper{
+//     static add(a,b){
+//         return a + b;
+//     }
+// }
+// MathHelper.add(2,3);
+// console.log(MathHelper.add(2,3));
+
+// class Animal{
+//     eat(){
+//         console.log("Eating");
+//     }
+// }
+// class Dog extends Animal {
+//     bark(){
+//         console.log("Barking");
+//     }
+// }
+// const d = new Dog();
+// d.bark();
+// d.eat();

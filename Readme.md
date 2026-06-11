@@ -124,3 +124,12 @@ Har ek function ke pass prototype hoti hai
 ```
 Inheritance -> Dog can herit properties of animal . 
 ```
+
+Setter -> it is used to validate the data 
+
+To access normal in JS 
+user.greet(); 
+
+Static method 
+
+//there is no need to create objects in static class 
