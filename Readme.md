@@ -133,3 +133,39 @@ user.greet();
 Static method 
 
 //there is no need to create objects in static class 
+
+### Day_04 
+Error Handling & Modules 
+Types of Error - 1. Reference error - variable exist nhi krta hai 
+2.type error - galat datatype se operation 
+3.Syntax error - programming grammer galat 
+4.Range error - out of bound 
+5. Run Time error - 
+
+# Try Catch Block In Javascript 
+```
+Try {
+    //jo bhai kaam krna ha
+}
+catch{
+    agr 
+}
+finally {
+
+}
+```
+
+**Modern import 
+. export 
+*** old 
+require 
+module.exports 
+
+# dynamic Import 
+
+Lazy Loading -> 
+
+# DOM - Document Object Module 
+
+### Day_05 
+https://excalidraw.com/#json=8lV3PI58f_UG1Ip4y8otr,ez3LAMlUw1xO_OOC36JEig
