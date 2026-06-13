@@ -89,6 +89,11 @@ s.textContent = sessionStorage.c || 0;
 l.textContent = localStorage.c || 0;
 </script>
 
+//56 
+alert(1) 
+
+//57
+
 
 
 //74 

@@ -19,3 +19,6 @@
 //         "Age must be at least 18"
 
 
+
+function throws() { throw new RangeError('out') } try { throws() } catch(e) { if (e instanceof TypeError) throw e; console.log('range caught'); }
+

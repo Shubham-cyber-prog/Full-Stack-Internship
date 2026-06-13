@@ -143,3 +143,48 @@ true true false
 
 //61 
 
+//76 
+try {
+    
+}
+catch (error) {
+    console.error("Error:", error.message);
+}
+
+//83
+function withErrorLogging(fn) {
+    return function(...args) {
+        try {
+            return fn.apply(this, args);
+        } catch (error) {
+            console.error({
+                fnName: fn.name,
+                args: args,
+                error: error.message,
+                timestamp: new Date()
+            });
+            throw error;
+        }
+    };
+}
+
+//84 
+
+//85 
+range caught 
+
+
+//94 
+const toast = {
+  show: function(message, type, duration) {
+    const toastElement = document.createElement("div");
+    toastElement.className = `toast ${type}`;
+    toastElement.textContent = message;
+    document.body.appendChild(toastElement);
+    
+    setTimeout(() => {
+      toastElement.remove();
+    }, duration);
+    }
+
+    //
