@@ -13,9 +13,9 @@
 // }
 // console.log("B");
 
-let age = 12; 
-if (age < 18) {
-    throw new Error(
-        "Age must be at least 18"
-    );
-}
+// let age = 12; 
+// if (age < 18) {
+//     throw new Error(
+//         "Age must be at least 18"
+
+

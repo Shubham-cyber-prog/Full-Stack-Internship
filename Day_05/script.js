@@ -39,3 +39,4 @@ btn.addEventListener('click', () => {
     li.textContent = input.value;
     list.appendChild(li);
 });
+

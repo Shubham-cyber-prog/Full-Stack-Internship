@@ -14,10 +14,10 @@ let ->  Redeclaration is not allowed
 blocked scope 
 looped problem solved 
 
-//Block scope - {} you can only access these variables defined inside only 
+**Block scope - {} you can only access these variables defined inside only **
 
 const 
-- Reassigment not allowed 
+*Reassigment not allowed *
 in case of object with const is allowed 
 
 We cam not access variable data type because they are tdz 
@@ -60,13 +60,13 @@ Rest Operator
 10. Memorization 
 
 1. Lexical scope 
--> Global Scope 
+** Global Scope 
 scope matlab kisi variable ko access kr skte hai 
 
-->Function scope 
+**Function scope 
 jab koi 
 
-->Block scope 
+**Block scope 
 
 lexical scope ka matlab itna hai ki child function apne parent variable  ke sarwe variabkle ko accesss kr skta hai 
 
