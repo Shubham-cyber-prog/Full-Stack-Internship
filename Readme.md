@@ -169,3 +169,8 @@ Lazy Loading ->
 
 ### Day_05 
 https://excalidraw.com/#json=8lV3PI58f_UG1Ip4y8otr,ez3LAMlUw1xO_OOC36JEig
+
+
+hello world 
+multiply 
+call me asap
