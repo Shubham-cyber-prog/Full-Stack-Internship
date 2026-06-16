@@ -109,4 +109,16 @@ A->C -> B
 //13
 start End Timeout 
 
-//14 
+///14 
+
+//15  
+function bombTimer(seconds) {
+    console.log(`Bomb will boom in ${seconds} seconds...`);
+    setTimeout(() => {
+        console.log('**Boom!');
+    }, seconds * 1000);
+}
+
+bombTimer(3);
+
+//16
