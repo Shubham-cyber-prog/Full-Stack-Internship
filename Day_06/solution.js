@@ -122,3 +122,31 @@ function bombTimer(seconds) {
 bombTimer(3);
 
 //16
+function notification(message, delay) {
+    setTimeout(() => {
+        console.log(`Notification: ${message}`);
+    }, delay);
+}
+
+notification('This is a delayed notification', 3000);
+
+//17
+
+
+//18 
+
+//19 
+
+//20 
+function wait(seconds,callback){
+    setTimeout(() => {
+        callback();
+    }, seconds * 1000);
+}
+
+wait(2, () => {
+    console.log('Waited for 2 seconds');
+});
+
+//21 
+
